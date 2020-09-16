@@ -7,7 +7,7 @@ denominaciones 200, 100, 50, 20, 10, 5, 2 y 1, y monedas de 0.50, 0.25, 0.10 y
 billetes de 20, 1 moneda de 0.50 y una moneda de 0.05 centavos.
  */
 package com.mycompany.tpn2;
-
+import java.util.Scanner;
 /**
  *
  * @author ivanmillan36
@@ -17,7 +17,11 @@ public class ej_4 {
     
     public static void main(String[] args) {
         
-        float dinero = (float) 0.75;
+        float dinero;
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.println("Ingrese un monto de dinero para obtener cantidad de billetes y monedas necesarias: ");
+        dinero = sc.nextFloat();
         
         cantBilletesYMonedas(dinero);
         
