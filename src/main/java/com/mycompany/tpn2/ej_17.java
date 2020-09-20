@@ -8,7 +8,7 @@ Cree una clase Principal que contenga un método main y haga uso de la función
 getFechaString.
  */
 package com.mycompany.tpn2;
-import com.mycompany.tpn2.FuncionesPrograma;
+
 import java.time.Instant;
 import java.util.Date;
 /**
