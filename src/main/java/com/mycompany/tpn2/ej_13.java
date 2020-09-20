@@ -17,7 +17,7 @@ public class ej_13 {
         cadena1 = sc.nextLine();
         System.out.println("Ingrese otra cadena: ");
         cadena2 = sc.nextLine();
-        
+     
         if (cadena1.indexOf(cadena2) == -1){
             System.out.println("La segunda cadena no se encuentra dentro de la primera");
         }else{
