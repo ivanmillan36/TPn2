@@ -14,7 +14,7 @@ public class ej_7 {
         String cadena;
         Scanner sc = new Scanner(System.in);
         int cantVocales = 0;
-        int [] vocales = {'a', 'e', 'i', 'o', 'u'};
+        int [] vocales = {'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'};
         
         System.out.println("Ingrese una cadena: ");
         cadena = sc.nextLine();
