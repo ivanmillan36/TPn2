@@ -12,7 +12,7 @@ public class ej_16 {
         Double num = 100.50;
         double num2;
         
-        num2 = num.doubleValue();
+        num2 = num;
         
         System.out.println("El dato almacenado en la variable Double \"num\" es: " + num2);
     }
