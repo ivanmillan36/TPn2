@@ -31,9 +31,10 @@ public class ej_4 {
        
         int parte_decimal = 0, parte_entera;
         int[] cant_dinero = new int[12]; 
-        
-        parte_decimal = (int)((dinero % 1) * 100);
         parte_entera = (int)dinero;
+        dinero = dinero *100;
+        parte_decimal = (int)(dinero % 100);
+        
         
         if(parte_entera >= 200){
             cant_dinero[0] = parte_entera / 200;
