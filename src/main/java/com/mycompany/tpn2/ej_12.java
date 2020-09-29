@@ -12,7 +12,7 @@ public class ej_12 {
         String cadena = "Laboratorio de computacion";
         String cadena_extraida;
         
-        cadena_extraida = cadena.substring(4, 6);
+        cadena_extraida = cadena.substring(3, 5);
         
         System.out.println(cadena_extraida);
         
